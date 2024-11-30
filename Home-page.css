@@ -1,0 +1,173 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+ html,body{
+  width: 100%;
+  height: 100%;
+
+}
+
+.main-body .img{
+  display: inline;
+  margin: 50px 0px 0px 20px;
+}
+.main-body .img .img1{
+  width: 700px;
+  height: 300px;
+  border: 3px dotted red;
+  border-radius: 25px;
+  box-shadow:15px 15px 10px #888888;
+  margin-top: 15px;
+  
+}
+.main-body .img .img2{
+  width: 720px;
+  height: 350px;
+  margin-top: 20px;
+}
+.Service{
+font-size: 25px;
+text-align: center;
+margin-top: 80px;
+text-transform: uppercase;
+color: blueviolet;
+text-shadow: 15px 5px 10px blue;
+}
+
+
+/* Slider img*/
+.slider-container {
+  width: 45%;
+  height: 350px;
+  margin: auto;
+  margin-top: 60px;
+  overflow: hidden;
+  border: 2px solid red;
+  border-radius: 50%;
+  box-shadow: 15px 15px 15px black;
+}
+
+.inner-container {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.slide img {
+  width: 100%;
+  height: auto;
+  background-size: contain;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 100%;
+  width: auto;
+  padding: 10px;
+  margin-top: 70px;
+  margin-right: 470px;
+  margin-left: 35px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+ 
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.column-container {
+ display: flex;
+ flex-wrap: column;
+ justify-content:space-between;
+ margin-left: 20px;
+ 
+}
+.detail-info{
+width: 20%;
+margin-bottom: 20px;
+justify-content: space-between;
+}
+
+.detail-info img{
+  width: 60px;
+  height: 60px;
+  margin: 50px 0px 0px 12px;
+  box-shadow: 10px 10px 10px blue;
+}
+.detail-info h1{
+color: black;
+margin-top: 8px;
+font-size: 15;
+text-transform: uppercase;
+}
+
+.detail-info p{
+color: brown;
+/* margin:10px 0px 0px -330px; */
+font-size: 20px;
+display:flex;
+justify-content: space-between;
+}
+
+.footer{
+  width: 100%;
+  height: 180%;
+  background-color: aqua;
+  display: flex;
+flex-wrap: column;
+justify-content:space-around;
+
+
+}
+
+
+.inner-footer h2{
+font-size: 25px;
+color: blue;
+margin-top: 20px;
+text-transform: uppercase;
+
+}
+.footer .inner-footer  ul li {
+color:blueviolet;
+}
+
+/* Existing CSS styles */
+
+.welcome-message {
+  background-color: #f0f0f0; /* Background color */
+  color: red; /* Text color */
+  padding: 10px; /* Padding around the message */
+  border-radius: 5px; /* Rounded corners */
+  margin-top: 10px; /* Spacing from the elements above */
+  font-size: 16px; /* Font size */
+  text-align: center; /* Center align the text */
+}
+
+.welcome-message a {
+  color: #007bff; /* Link color */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.welcome-message a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
+/* Existing CSS styles continue... */

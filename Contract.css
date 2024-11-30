@@ -1,0 +1,78 @@
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: column;
+    justify-content: space-between;
+}
+.container .inner-container h1{
+    font-size: 40px;
+    margin: 45px 0px 0px 150px;
+    color: brown;
+    box-shadow: 15px 15px 15px black;
+    border:2px solid black;
+    text-transform: uppercase;
+}
+.container .inner-container h2{
+    margin: 30px 0px 0px 150px;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+form{
+    margin: 20px 0px 0px 150px;
+    
+}
+label{
+    font-size: 20px;
+    margin-top: 15px;
+    color: brown;
+}
+input{
+    width: 300px;
+    height: 30px;
+    font-size: 20px;
+    margin-top: 15px;
+    border: 2px solid brown;
+    
+}
+textarea{
+    resize: none;
+    border: 2px solid brown;
+    font-size: 15px;
+}
+button{
+    width: 100px;
+    height: 40px;
+    border-radius:5px;
+    font-size: 20px;
+    color: black;
+    border: 2px solid brown;
+    box-shadow: 5px 5px 5px black;
+}
+
+.location h1{
+    margin: 100px 450px 0px 0px;
+    text-transform: uppercase;
+}
+.location h4{
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.location .map{
+border: 2px solid red;
+width: 510px;
+box-shadow: 10px 10px 10px black;
+}
+.location p{
+    font-size: 15px;
+    margin-top: 35px;
+    color: brown;
+    margin-left: 10px;
+}
+.container-h{
+    display: flex;
+    flex-wrap: column;
+    justify-content: space-around;
+    margin-right:80px ;
+}

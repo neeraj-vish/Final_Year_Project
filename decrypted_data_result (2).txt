@@ -1,0 +1,12 @@
+Decryption Result: Some data is corrupted.
+
+Successful Decryptions: 2
+Corrupted Data: 2
+
+Decrypted Data:
+Decrypted Email: 
+Decrypted Password: selec
+
+Decrypted Email: 
+Decrypted Password: selec
+
